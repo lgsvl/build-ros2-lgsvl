@@ -80,5 +80,6 @@ webos_layers = [
 ('meta-raspberrypi',          50, 'git://git.yoctoproject.org/meta-raspberrypi',            'branch=morty,commit=2a19226', ''),
 ('meta-webos-raspberrypi',    51, 'ssh://gpro.lgsvl.com/webosose/meta-webosose',            '', ''),
 ('meta-ros',                  52, 'ssh://gpro.lgsvl.com/r2d2/meta-ros',                     'branch=ros2pr',''),
-('meta-r2d2',                 60, 'ssh://gpro.lgsvl.com/r2d2/meta-r2d2',                   'branch=master', ''),
+
+('meta-r2d2',                 60, 'ssh://gpro.lgsvl.com/r2d2/meta-r2d2',                    'branch=master', ''),
 ]
