@@ -18,12 +18,14 @@
 #set -x
 
 # Some constants
-SCRIPT_VERSION="6.10.2d"
+SCRIPT_VERSION="6.10.2e"
 SCRIPT_NAME=`basename $0`
 AUTHORITATIVE_OFFICIAL_BUILD_SITE="svl"
 
 BUILD_REPO="r2d2/build-r2d2"
-BUILD_LAYERS=("webosose/meta-webosose r2d2/meta-ros r2d2/meta-r2d2 ")
+BUILD_LAYERS=("webosose/meta-webosose"
+              "r2d2/meta-ros"
+              "r2d2/meta-r2d2")
 
 # Create BOM files, by default disabled
 CREATE_BOM=
