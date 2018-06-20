@@ -120,10 +120,10 @@ def getopts():
         variations = parser.add_argument_group('Build Instructions')
 
         variations.add_argument('-p', '--enable-parallel-make', dest='parallel_make', type=int, default=0,
-                                help='maximum number of parallel tasks each submake of bitbake should spawn (default: 0 = 2x the number of processor cores)')
+                                help='maximum number of parallel tasks each submake of bitbake should spawn (default: 0 means 2x the number of processor cores)')
 
-        variations.add_argument('-b', '--enable-bb-number-threads', dest='bb_number_threads', type=int, default=0,
-                                help='maximum number of bitbake tasks to spawn (default: 0 = 2x the number of processor cores))')
+        variations.add_argument('-b', '--enable-bb-number-threads', dest='bb_number_threads', type=int, default=8,
+                                help='maximum number of bitbake tasks to spawn (0 means 2x the number of processor cores))')
 
         icecc = parser.add_argument_group('ICECC Configuration')
 
