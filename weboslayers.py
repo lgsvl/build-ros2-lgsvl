@@ -70,15 +70,15 @@ webos_layers = [
 
 ('meta-qt5',                  20, 'git://github.com/meta-qt5/meta-qt5.git',                 'branch=krogoth,commit=f8584d7', ''),
 
-('meta-webos-backports-2.3',  30, 'ssh://gpro.lgsvl.com/webosose/meta-webosose',            '', ''),
-('meta-webos-backports-2.4',  31, 'ssh://gpro.lgsvl.com/webosose/meta-webosose',            '', ''),
-('meta-webos-backports-2.5',  32, 'ssh://gpro.lgsvl.com/webosose/meta-webosose',            '', ''),
+('meta-webos-backports-2.3',  30, 'git://github.com/webosose/meta-webosose.git',            '', ''),
+('meta-webos-backports-2.4',  31, 'git://github.com/webosose/meta-webosose.git',            '', ''),
+('meta-webos-backports-2.5',  32, 'git://github.com/webosose/meta-webosose.git',            '', ''),
 
-('meta-webos',                40, 'ssh://gpro.lgsvl.com/webosose/meta-webosose',            'branch=master,commit=cd9a5be', ''),
+('meta-webos',                40, 'git://github.com/webosose/meta-webosose.git',            'branch=master,commit=cd9a5be', ''),
 
 ('meta-raspberrypi',          50, 'git://git.yoctoproject.org/meta-raspberrypi',            'branch=morty,commit=2a19226', ''),
-('meta-webos-raspberrypi',    51, 'ssh://gpro.lgsvl.com/webosose/meta-webosose',            '', ''),
-('meta-ros',                  52, 'ssh://gpro.lgsvl.com/r2d2/meta-ros',                     'branch=ros2pr',''),
+('meta-webos-raspberrypi',    51, 'git://github.com/webosose/meta-webosose.git',            '', ''),
+('meta-ros2',                 52, 'git://github.com/lgsvl/meta-ros2.git',                   'branch=ros2pr',''),
 
-('meta-r2d2',                 60, 'ssh://gpro.lgsvl.com/r2d2/meta-r2d2',                    'branch=master', ''),
+('meta-ros2-lgsvl',           60, 'git://github.com/lgsvl/meta-ros2-lgsvl.git',             'branch=master', ''),
 ]
