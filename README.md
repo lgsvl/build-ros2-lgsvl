@@ -1,19 +1,19 @@
-build-webos
-===========
+build-ros2-lgsvl
+================
 
 Summary
 -------
-Build webOS OSE (Open Source Edition) images
+Build ROS2 LGSVL robot images on webOS OSE (Open Source Edition)
 
 Description
 -----------
-This repository contains the top level code that aggregates the various [OpenEmbedded](http://openembedded.org) layers into a whole from which webOS OSE images can be built.
+This repository contains the top level code that aggregates the various [OpenEmbedded](http://openembedded.org), webOS OSE and ROS2 layers into a whole from which robot images can be built.
 
 Cloning
 =======
 Set up build-webos by cloning its Git repository:
 
-     git clone https://github.com/webosose/build-webos.git
+     git clone https://github.com/lgsvl/build-ros2-lgsvl.git
 
 Note: If you populate it by downloading an archive (zip or tar.gz file), then you will get the following error when you run mcf:
 
