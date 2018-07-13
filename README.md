@@ -5,7 +5,7 @@ build-ros2-lgsvl
 
 ## Video
 
-[![ROS2 on webOS: Web-app enabled robots](http://img.youtube.com/vi/Ipl7TLSQfwI/0.jpg)](http://www.youtube.com/watch?v=Ipl7TLSQfwI)
+[![ROS2 on webOS: Web-app enabled robots](http://img.youtube.com/vi/lCGa7LkDNp0/0.jpg)](http://www.youtube.com/watch?v=lCGa7LkDNp0)
 
 
 
