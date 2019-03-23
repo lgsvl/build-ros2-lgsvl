@@ -68,17 +68,17 @@ webos_layers = [
 ('meta-python',               13, 'git://github.com/openembedded/meta-openembedded.git',    '', 'meta-oe'),
 ('meta-filesystems',          14, 'git://github.com/openembedded/meta-openembedded.git',    '', 'meta-oe'),
 
-('meta-qt5',                  20, 'git://github.com/meta-qt5/meta-qt5.git',                 'branch=krogoth,commit=dcfcb58', ''),
+('meta-qt5',                  20, 'git://github.com/meta-qt5/meta-qt5.git',                 'branch=krogoth,commit=f8584d7', ''),
 
 ('meta-webos-backports-2.3',  30, 'git://github.com/webosose/meta-webosose.git',            '', ''),
 ('meta-webos-backports-2.4',  31, 'git://github.com/webosose/meta-webosose.git',            '', ''),
 ('meta-webos-backports-2.5',  32, 'git://github.com/webosose/meta-webosose.git',            '', ''),
 ('meta-webos-backports-2.6',  33, 'git://github.com/webosose/meta-webosose.git',            '', ''),
 
-('meta-webos',                40, 'git://github.com/webosose/meta-webosose.git',            'branch=master,commit=f8882e8', ''),
+('meta-webos',                40, 'git://github.com/webosose/meta-webosose.git',            'branch=master,commit=b34522f', ''),
 
 ('meta-raspberrypi',          50, 'git://git.yoctoproject.org/meta-raspberrypi',            'branch=morty,commit=2a19226', ''),
 ('meta-webos-raspberrypi',    51, 'git://github.com/webosose/meta-webosose.git',            '', ''),
 ('meta-ros2',                 52, 'git://github.com/lgsvl/meta-ros2.git',                   'branch=devel,commit=ccde307', ''),
-('meta-ros2-lgsvl',           60, 'git://github.com/lgsvl/meta-ros2-lgsvl.git',             'branch=devel,commit=505fd42', ''),
+('meta-ros2-lgsvl',           60, 'git://github.com/lgsvl/meta-ros2-lgsvl.git',             'branch=devel,commit=d28e3e7', ''),
 ]

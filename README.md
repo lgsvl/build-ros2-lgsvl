@@ -105,7 +105,7 @@ To remove the shared state for a component as well as its build artifacts to ens
     $ make cleanall-<component-name>
 
 ### Adding new layers
-The script automates the process of adding new OE layers to the build environment.  The information required for integrate new layer are; layer name, OE priority, repository, identification in the form branch, commit or tag ids. It is also possible to reference a layer from local storage area.  The details are documented in weboslayers.py.
+The script automates the process of adding new OE layers to the build environment.  The information required for integrating a new layer is: layer name, OE priority, repository, identification in the form branch, commit or tag ids. It is also possible to reference a layer from local storage area.  The details are documented in weboslayers.py.
 
 
 
