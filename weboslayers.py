@@ -82,3 +82,6 @@ webos_layers = [
 ('meta-ros2',                 52, 'git://github.com/lgsvl/meta-ros2.git',                   'branch=devel,commit=ccde307', ''),
 ('meta-ros2-lgsvl',           60, 'git://github.com/lgsvl/meta-ros2-lgsvl.git',             'branch=devel,commit=d28e3e7', ''),
 ]
+
+# BblayersConfExtraLines is a tuple of strings to be appended to the generated conf/bblayers.conf.
+BblayersConfExtraLines = ('')
