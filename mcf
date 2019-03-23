@@ -25,7 +25,7 @@ from time import gmtime, strftime, sleep
 import shutil
 import glob
 
-__version__ = "6.2.3"
+__version__ = "6.2.3a"
 
 logger = logging.getLogger(__name__)
 
@@ -462,6 +462,12 @@ def write_bblayers_conf(sourcedir):
         f.write(bblayers)
         f.write('"\n')
         f.write(priorities)
+        try:
+            from weboslayers import BblayersConfExtraLines
+            if BblayersConfExtraLines:
+                f.writelines('\n' + '\n'.join(BblayersConfExtraLines) + '\n')
+        except ImportError:
+            pass
 
 def update_layers(sourcedir):
     logger.info('MCF-%s: Updating build directory' % __version__)
